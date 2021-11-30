@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - InputText
+  - Death
+  - Checkpoint
+  - CodeContainer
+  - Pad
+  - GameManager
+  - CodePlace
+  - CodeValue
+  - NumPlace
+  - NumValue
+  - BooleanValue
+  - BooleanPlace
+  - KeyValue
+  - KeyPlace
+  - Alert
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - CodeUI
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 525225359
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 4059020467
+    locked: 0
+  - name: Props
+    uniqueID: 716500199
+    locked: 0
+  - name: BG
+    uniqueID: 3125808535
+    locked: 0
+  - name: World UI
+    uniqueID: 738441361
+    locked: 0
+  - name: Floor
+    uniqueID: 1823997767
+    locked: 0
+  - name: Props Front
+    uniqueID: 2903542397
+    locked: 0
