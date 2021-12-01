@@ -783,6 +783,7 @@ namespace DynamicPanels
 
 		private void OnTranslate( Vector2 deltaPosition )
 		{
+			return;
 			RectTransform.anchoredPosition += deltaPosition;
 		}
 		#endregion

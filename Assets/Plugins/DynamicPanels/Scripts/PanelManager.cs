@@ -238,6 +238,7 @@ namespace DynamicPanels
 
 		public void DetachPanel( Panel panel )
 		{
+			return;
 			if( draggedPanel == panel )
 				draggedPanel = null;
 
@@ -254,6 +255,8 @@ namespace DynamicPanels
 
 		public Panel DetachPanelTab( Panel panel, int tabIndex )
 		{
+			return panel;
+
 			if( tabIndex >= 0 && tabIndex < panel.NumberOfTabs )
 			{
 				if( panel.NumberOfTabs == 1 )
@@ -429,6 +432,7 @@ namespace DynamicPanels
 		#region Panel Tab Drag Callbacks
 		public bool OnBeginPanelTabTranslate( PanelTab panelTab, PointerEventData draggingPointer )
 		{
+			return true;
 			if( draggedPanel != null )
 				CancelDraggingPanel();
 
@@ -463,6 +467,7 @@ namespace DynamicPanels
 
 		public void OnPanelTabTranslate( PanelTab panelTab, PointerEventData draggingPointer )
 		{
+			return;
 			if( draggedPanel == panelTab.Panel )
 			{
 				Rect previewRect;
